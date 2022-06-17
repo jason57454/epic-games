@@ -1,0 +1,67 @@
+.right_nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.right_nav ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  padding: 8px;
+  align-items: center;
+}
+
+.right_nav li {
+  margin: 0 14px;
+}
+
+.sign_btn {
+  margin-left: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.sign_btn p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.dl_btn {
+  color: white;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 11px;
+  align-items: center;
+  padding: 0 16px;
+  background: rgba(0, 0, 0, 0)
+    radial-gradient(
+      100% 185.14% at 100% 100%,
+      rgb(52, 195, 255) 0%,
+      rgb(51, 142, 238) 100%
+    );
+  color: black;
+  height: 100%;
+  font-weight: 700;
+  letter-spacing: 1.05px;
+  line-height: 16px;
+  z-index: 2;
+}
+
+.right_menu {
+  margin: 64px 96px 64px 80px;
+  width: 251px;
+  display: flex;
+  position: relative;
+}
+
+.title_right {
+  color: rgb(204, 204, 204);
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 3px;
+  margin-top: 24px;
+}
