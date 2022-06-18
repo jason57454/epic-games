@@ -20,9 +20,12 @@ export default function Footer() {
             <div className="title_col_10">SUPPORT</div>
             <div className="links">
               <p>Get help</p>
+              <p>FAQs</p>
               <p>Documentation</p>
+              <p>Issues</p>
               <p>Forums</p>
               <p>Roadmap</p>
+              <p>Ask a question</p>
               <p>Unreal Developer Network</p>
             </div>
           </div>

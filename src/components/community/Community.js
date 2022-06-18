@@ -9,20 +9,20 @@ export default function community() {
       </div>
       <div className="col_5">
         <div className="gradient_bg"></div>
-        <div className="title_col_5">A thriving community of creators</div>
-        <div className="content_col_5">
+        <div className="title_col_5" data-aos="fade-up">A thriving community of creators</div>
+        <div className="content_col_5" data-aos="fade-up">
           Creators and developers around the world hone their real-time skills
           in remarkable, groundbreaking ways. Check out some of our favorite
           recent projects from real Unreal Engine users across industries.
         </div>
-        <div className="btn_community">
+        <div className="btn_community" data-aos="fade-up">
           <a href="lorem.com" alt="">
             JOIN THE COMMUNITY
           </a>
         </div>
       </div>
       <div className="row_7">
-        <div className="cards">
+        <div className="cards" data-aos="fade-up">
           <div className="img_card">
             <img
               src="https://cdn2.unrealengine.com/body-1-news-uolsuccessstories-1920x1080-097165076.jpg?resize=1&w=800"
@@ -41,7 +41,7 @@ export default function community() {
             </div>
           </div>
         </div>
-        <div className="cards">
+        <div className="cards" data-aos="fade-up">
           <div className="img_card">
             <img
               src="https://cdn2.unrealengine.com/screenshot00027-1920x1050-801fd3a3dc48.png?resize=1&w=800"
@@ -60,7 +60,7 @@ export default function community() {
             </div>
           </div>
         </div>
-        <div className="cards">
+        <div className="cards" data-aos="fade-up">
           <div className="img_card">
             <img
               src="https://cdn2.unrealengine.com/3-scene-showing-the-creation-of-the-last-universal-common-ancestor-luca-1920x1080-afc46b22dd27.png?resize=1&w=800"

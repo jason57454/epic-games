@@ -1,0 +1,226 @@
+.container_row_21 {
+  margin: 0 auto;
+  width: 1456px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row_21 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.col_15 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 33%;
+  padding: 0 32px;
+}
+
+.title_col_15 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.content_col_15 {
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: 16px;
+  line-height: 30px;
+  width: 380px;
+}
+
+.row_22 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 66%;
+}
+
+.col_16 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 4px solid white;
+  width: 300px;
+  height: 400px;
+  padding: 48px;
+  margin-left: 32px;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col_16:hover {
+  background-color: white;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.title_col_16 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 100px;
+}
+
+.content_col_16 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.content_col_16 p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.newsletter {
+  margin-top: 100px;
+  position: relative;
+}
+
+.container_news {
+  width: 1456px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
+  padding: 80px 0;
+  position: relative;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title_news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.title_news p {
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+input {
+  height: 48px;
+  padding: 0 16px;
+  width: 300px;
+  background: #eceff2;
+  border: transparent;
+  font-size: 16px;
+}
+
+.subscribe_btn {
+  background: rgba(0, 0, 0, 0)
+    -o-radial-gradient(
+      100% 100%,
+      100% 185.14%,
+      rgb(52, 195, 255) 0%,
+      rgb(51, 142, 238) 100%
+    )
+    repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0)
+    radial-gradient(
+      100% 185.14% at 100% 100%,
+      rgb(52, 195, 255) 0%,
+      rgb(51, 142, 238) 100%
+    )
+    repeat scroll 0% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe_btn a {
+  padding: 0 30px;
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.disclaimer {
+  font-size: 14px;
+  text-align: center;
+}
+
+.background_news {
+  position: absolute;
+  inset: 50% 0px 0px;
+  background-color: rgb(32, 35, 55);
+}

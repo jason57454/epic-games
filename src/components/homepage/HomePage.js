@@ -17,9 +17,7 @@ export default function HomePage() {
     let pourcentage = (window.scrollY - 0) / (300 - 0);
     var onScrollPercent = pourcentage;
     var setTranslate = -110 * onScrollPercent - 90;
-    var setOpacity = -110 * onScrollPercent - 90;
     if (setTranslate < -200) setTranslate = -200;
-    if (setOpacity < 0) setOpacity = 0;
     setGradient({
       transform: `translateX(${setTranslate}px)`,
       opacity: `1`,
@@ -34,7 +32,7 @@ export default function HomePage() {
     let pourcentage = (window.scrollY - 0) / (300 - 0);
     var onScrollPercent = pourcentage;
     var setTranslateY = -1000 * onScrollPercent - 90;
-    var setOpacity = -10 * onScrollPercent - 1;
+    var setOpacity = -10 * onScrollPercent - (-1);
     if (setOpacity < 0) setOpacity = 0;
     if (setTranslateY < -1500) setTranslateY = -1500;
     setTranslate({

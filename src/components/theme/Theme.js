@@ -5,7 +5,7 @@ export default function theme() {
   return (
     <div className="wrapper_theme">
       <div className="container_wrapper">
-        <div className="col_20">
+        <div className="col_20" data-aos="fade-up">
           <div className="title_theme">Create without limits</div>
           <div className="content_col_20">
             <p>
@@ -20,7 +20,7 @@ export default function theme() {
           </div>
         </div>
         <div className="row_2">
-          <div className="items_row">
+          <div className="items_row" data-aos="fade-up">
             <div className="title_items">Learn Unreal Engine</div>
             <div className="content_items">
               With hundreds of hours of free online learning content, an
@@ -31,7 +31,7 @@ export default function theme() {
               <a href="lorem.com">START LEARNING</a>
             </div>
           </div>
-          <div className="items_row">
+          <div className="items_row" data-aos="fade-up">
             <div className="title_items">Join the community</div>
             <div className="content_items">
               Unreal creators are the true power behind Unreal Engine. Be part
@@ -42,7 +42,7 @@ export default function theme() {
               <a href="lorem.com">VISIT COMMUNITY</a>
             </div>
           </div>
-          <div className="items_row">
+          <div className="items_row" data-aos="fade-up">
             <div className="title_items">Get support</div>
             <div className="content_items">
               Explore comprehensive reference documentation, instructional
@@ -54,13 +54,13 @@ export default function theme() {
             </div>
           </div>
         </div>
-        <div className="col_4">
+        <div className="col_4" data-aos="fade-up">
           <div className="col_4_header">
             <div className="left_col_4">The latest from Unreal Engine</div>
             <div className="right_col_4">SEE ALL NEWS & EVENTS</div>
           </div>
           <div className="row_3">
-            <div className="items_col">
+            <div className="items_col" data-aos="fade-up">
               <img
                 src="https://cdn2.unrealengine.com/m2m-02-1920x1080-313b6089e0e7.jpg?resize=1&w=533"
                 alt=""
@@ -79,7 +79,7 @@ export default function theme() {
                 <a href="lorem.com">FIND OUT MORE</a>
               </div>
             </div>
-            <div className="items_col">
+            <div className="items_col" data-aos="fade-up">
               <img
                 src="https://cdn2.unrealengine.com/ue5-block-1961x1103-8db63d5857d7.jpg?resize=1&w=533"
                 alt=""
@@ -99,7 +99,7 @@ export default function theme() {
                 <a href="lorem.com">FIND OUT MORE</a>
               </div>
             </div>
-            <div className="items_col">
+            <div className="items_col" data-aos="fade-up">
               <img
                 src="https://cdn2.unrealengine.com/feed-1920x1080-teaser-1920x1080-2cb99ff82b7b.jpg?resize=1&w=533"
                 alt=""

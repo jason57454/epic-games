@@ -5,6 +5,7 @@ import RightNav from "./components/rightNav/RightNav";
 import HomePage from "./components/homepage/HomePage";
 import Theme from "./components/theme/Theme";
 import Community from "./components/community/Community";
+import Features from "./components/features/Features";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
       </div>
       <div className="container_community">
         <Community></Community>
+      </div>
+      <div className="container_features">
+        <Features></Features>
       </div>
       <div className="footer">
         <Footer></Footer>

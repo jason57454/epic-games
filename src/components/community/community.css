@@ -2,12 +2,21 @@
   width: 1456px;
   margin: 0 auto;
   padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .bg_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: relative;
   width: 100%;
@@ -20,7 +29,9 @@
   position: absolute;
   top: -100px;
   left: 50%;
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
   right: 0px;
   height: 470px;
   opacity: 0.25;
@@ -29,6 +40,12 @@
 
 .gradient_bg {
   background: rgba(0, 0, 0, 0)
+    -webkit-gradient(linear, left bottom, left top, from(rgb(14, 17, 40)), to(rgba(13, 16, 35, 0))) repeat
+    scroll 0% 0%;
+  background: rgba(0, 0, 0, 0)
+    -o-linear-gradient(bottom, rgb(14, 17, 40) 0%, rgba(13, 16, 35, 0) 100%) repeat
+    scroll 0% 0%;
+  background: rgba(0, 0, 0, 0)
     linear-gradient(0deg, rgb(14, 17, 40) 0%, rgba(13, 16, 35, 0) 100%) repeat
     scroll 0% 0%;
   position: absolute;
@@ -36,14 +53,23 @@
   height: 155px;
   width: 2543px;
   left: 50%;
-  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+      -ms-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .col_5 {
   width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 100px;
   position: relative;
 }
@@ -64,6 +90,8 @@
 }
 
 .btn_community {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 20px;
   border: 2px solid rgb(52, 195, 255);
@@ -76,15 +104,22 @@
 }
 
 .row_7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   margin-top: 100px;
 }
 
 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 33%;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0 40px;
 }
 
@@ -97,9 +132,15 @@
 }
 
 .row_8 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card_title {
