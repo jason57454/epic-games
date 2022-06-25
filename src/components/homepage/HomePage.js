@@ -24,10 +24,6 @@ export default function HomePage() {
     });
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", getGradient);
-  }, []);
-
   const getTranslate = () => {
     let pourcentage = (window.scrollY - 0) / (300 - 0);
     var onScrollPercent = pourcentage;
@@ -40,10 +36,6 @@ export default function HomePage() {
       opacity: `${setOpacity}`,
     });
   };
-
-  useEffect(() => {
-    window.addEventListener("scroll", getTranslate);
-  }, []);
 
   const getScale = () => {
     let percentage = (window.scrollY - 0) / (1300 - 0);
@@ -60,9 +52,10 @@ export default function HomePage() {
     });
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", getScale);
-  }, []);
+useEffect(() => {
+    window.addEventListener("scroll", () => {getGradient(); getScale(); getTranslate()});
+  }, []);  
+
 
   return (
     <div className="wrapper_homepage">
