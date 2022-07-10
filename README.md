@@ -4,8 +4,9 @@ I recreated the first page of epic games unreal engine website
 This website is made with 5 sections. For fade animations, I used the AOS library.
 
 The header part is made with HTML/CSS and keyframes for opacity animation.
+The video effect is made with react, using lagrange interpolation.
 
-https://user-images.githubusercontent.com/102857631/178144273-3dd7efec-b0ab-4948-97fd-c26e6f6cd62b.mp4
+https://user-images.githubusercontent.com/102857631/178144495-073b4fa9-162f-4f2b-b9d8-48ff0f67fe95.mp4
 
 
 This section is only made with HTML/CSS, with some fade animations.
